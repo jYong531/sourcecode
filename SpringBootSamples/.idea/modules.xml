@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Redis/Redis.iml" filepath="$PROJECT_DIR$/Redis/Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServletComponents/ServletComponents.iml" filepath="$PROJECT_DIR$/ServletComponents/ServletComponents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootSamples.iml" filepath="$PROJECT_DIR$/SpringBootSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/docker/docker.iml" filepath="$PROJECT_DIR$/docker/docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
+    </modules>
+  </component>
+</project>

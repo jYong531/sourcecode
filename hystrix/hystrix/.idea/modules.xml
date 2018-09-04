@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hystrix.iml" filepath="$PROJECT_DIR$/hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-client/hystrix-client.iml" filepath="$PROJECT_DIR$/hystrix-client/hystrix-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-server/hystrix-server.iml" filepath="$PROJECT_DIR$/hystrix-server/hystrix-server.iml" />
+    </modules>
+  </component>
+</project>

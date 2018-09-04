@@ -1,0 +1,13 @@
+在pom.xml中引入cache依赖，添加如下内容：
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-cache</artifactId>
+</dependency>
+
+在Spring Boot主类中增加@EnableCaching注解开启缓存功能
+在数据访问接口中，增加缓存配置注解@CacheConfig
+会根据Key是否相同来决定是否从缓存中获取数据
+
+虽然Spring Cache用起来很方便的, 但不支持设置动态过期时间,这里需要重写RedisCacheManager的一些方法。
+
+SpringBoot支持很多种缓存方式：redis、guava、ehcahe、jcache等等。
